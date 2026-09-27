@@ -1,0 +1,65 @@
+<svg viewBox="0 0 680 440" width="100%" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>TitrationCtrl 自动滴定仪控制板 PCB 布局俯视图</title>
+<desc>板框 2960×1960 mil，放置 MCU、16位ADC、光电前置运放、步进驱动、搅拌电机驱动、RS485 收发器、LDO 与 DC 插座共 8 个元件。</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+</defs>
+
+<text x="83" y="42" font-family="sans-serif" font-size="14" font-weight="500" fill="#2C2C2A">TitrationCtrl · PCB 布局俯视图</text>
+<text x="83" y="58" font-family="sans-serif" font-size="11" fill="#888780">顶视图 · 单位 mil 坐标映射 · 板尺寸 75.1 × 49.8 mm</text>
+
+<rect x="83" y="70" width="520" height="344" rx="4" fill="#F1EFE8" stroke="#888780" stroke-width="0.5"/>
+
+<path d="M306 212 L350 172" fill="none" stroke="#B4B2A9" stroke-width="1" marker-end="url(#arrow)"/>
+<path d="M308 220 L402 172" fill="none" stroke="#B4B2A9" stroke-width="1" marker-end="url(#arrow)"/>
+<path d="M276 234 L214 272" fill="none" stroke="#B4B2A9" stroke-width="1" marker-end="url(#arrow)"/>
+<path d="M291 234 L282 290" fill="none" stroke="#B4B2A9" stroke-width="1" marker-end="url(#arrow)"/>
+<path d="M310 230 L424 246" fill="none" stroke="#B4B2A9" stroke-width="1" marker-end="url(#arrow)"/>
+<path d="M170 132 L268 200" fill="none" stroke="#B4B2A9" stroke-width="1" marker-end="url(#arrow)"/>
+<path d="M144 92 L148 92" fill="none" stroke="#B4B2A9" stroke-width="1" marker-end="url(#arrow)"/>
+
+<g>
+<rect x="266" y="206" width="48" height="32" rx="5" fill="#E6F1FB" stroke="#185FA5" stroke-width="1"/>
+<text x="290" y="222" font-family="sans-serif" font-size="12" font-weight="500" fill="#042C53" text-anchor="middle" dominant-baseline="central">U1</text>
+<text x="290" y="254" font-family="sans-serif" font-size="11" fill="#5F5E5A" text-anchor="middle">STM32 主控</text>
+</g>
+<g>
+<rect x="349" y="148" width="40" height="26" rx="5" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="369" y="161" font-family="sans-serif" font-size="12" font-weight="500" fill="#26215C" text-anchor="middle" dominant-baseline="central">U2</text>
+<text x="369" y="190" font-family="sans-serif" font-size="11" fill="#5F5E5A" text-anchor="middle">16位 ADC</text>
+</g>
+<g>
+<rect x="402" y="148" width="40" height="26" rx="5" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+<text x="422" y="161" font-family="sans-serif" font-size="12" font-weight="500" fill="#26215C" text-anchor="middle" dominant-baseline="central">U3</text>
+<text x="422" y="190" font-family="sans-serif" font-size="11" fill="#5F5E5A" text-anchor="middle">光电前置</text>
+</g>
+<g>
+<rect x="180" y="278" width="44" height="28" rx="5" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<text x="202" y="292" font-family="sans-serif" font-size="12" font-weight="500" fill="#4A1B0C" text-anchor="middle" dominant-baseline="central">U4</text>
+<text x="202" y="322" font-family="sans-serif" font-size="11" fill="#5F5E5A" text-anchor="middle">滴定泵步进</text>
+</g>
+<g>
+<rect x="261" y="296" width="40" height="26" rx="5" fill="#FAECE7" stroke="#993C1D" stroke-width="1"/>
+<text x="281" y="309" font-family="sans-serif" font-size="12" font-weight="500" fill="#4A1B0C" text-anchor="middle" dominant-baseline="central">U5</text>
+<text x="281" y="338" font-family="sans-serif" font-size="11" fill="#5F5E5A" text-anchor="middle">搅拌直流电机</text>
+</g>
+<g>
+<rect x="420" y="253" width="40" height="26" rx="5" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+<text x="440" y="266" font-family="sans-serif" font-size="12" font-weight="500" fill="#04342C" text-anchor="middle" dominant-baseline="central">U6</text>
+<text x="440" y="295" font-family="sans-serif" font-size="11" fill="#5F5E5A" text-anchor="middle">RS485 上报</text>
+</g>
+<g>
+<rect x="147" y="112" width="40" height="26" rx="5" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="167" y="125" font-family="sans-serif" font-size="12" font-weight="500" fill="#412402" text-anchor="middle" dominant-baseline="central">U7</text>
+<text x="167" y="154" font-family="sans-serif" font-size="11" fill="#5F5E5A" text-anchor="middle">3.3V LDO</text>
+</g>
+<g>
+<rect x="103" y="86" width="40" height="26" rx="5" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text x="123" y="99" font-family="sans-serif" font-size="12" font-weight="500" fill="#412402" text-anchor="middle" dominant-baseline="central">DC1</text>
+<text x="123" y="128" font-family="sans-serif" font-size="11" fill="#5F5E5A" text-anchor="middle">电源输入</text>
+</g>
+
+<text x="603" y="430" font-family="sans-serif" font-size="11" fill="#888780" text-anchor="end">两层板 · 顶层/底层 GND 铺铜 · 49 过孔</text>
+</svg>

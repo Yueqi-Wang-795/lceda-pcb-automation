@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "jlceda": {
+      "command": "node",
+      "args": ["/absolute/path/to/jlcmcp/dist/index.js"],
+      "env": {
+        "AUTO_SPAWN_BRIDGE": "true",
+        "KILL_BRIDGE_ON_EXIT": "0"
+      },
+      "disabled": false
+    }
+  }
+}

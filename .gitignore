@@ -1,0 +1,18 @@
+# 依赖
+node_modules/
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+*.log
+
+# 个人工作区临时产物（不在仓库内）
+out/
+*.b64
+
+# 大型二进制制造文件（可用 scripts/export-fab.mjs 重新生成）
+examples/**/*.step
+
+# 本机环境差异
+.env
+*.local

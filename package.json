@@ -1,0 +1,16 @@
+{
+  "name": "lceda-pcb-automation",
+  "version": "1.0.0",
+  "description": "用 AI + 嘉立创 EDA MCP 自动生成 PCB 的工具链与示例工程：导出制造文件、板面几何体检、异步 DRC。",
+  "type": "module",
+  "keywords": ["嘉立创", "EasyEDA", "PCB", "MCP", "automation", "fabrication"],
+  "scripts": {
+    "export": "node scripts/export-fab.mjs",
+    "analyze": "node scripts/analyze-board.mjs",
+    "drc": "node scripts/poll-drc.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}

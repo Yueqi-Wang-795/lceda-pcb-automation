@@ -1,0 +1,1327 @@
+{
+  "version": "2.0.0",
+  "projectId": "cb99a9ef435e9ee4fd1f2428810eaae763cb78a0482cc20836608f33af8fe54b",
+  "components": {
+    "UNIQUEU1": {
+      "props": {
+        "Name": "STM32F103C8T6",
+        "Designator": "U1",
+        "Footprint": "62dc7bb535d304dc",
+        "LCSC Part Name": "主流增强型ARM Cortex-M3 MCU，具有64 KB Flash、72 MHz CPU、电机控制、USB和CAN",
+        "Supplier Part": "C8734",
+        "Manufacturer": "ST(意法半导体)",
+        "Manufacturer Part": "STM32F103C8T6",
+        "Supplier Footprint": "LQFP-48(7x7)",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/STM32F103C8T6/9243.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "093be70396ff421eb2cdb946d5311efc|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "LQFP-48_L7.0-W7.0-H1.4-LS9.0-P0.50",
+        "3D Model Transform": "354.331,354.331,0,0,0,0,0,0,0",
+        "CPU Core": "ARM Cortex-M3",
+        "CPU Maximum Speed": "72MHz",
+        "Core Size": "32 Bit",
+        "Program Storage Size": "64KB",
+        "Program Memory Type": "FLASH",
+        "RAM Size": "20KB",
+        "EEPROM": "-",
+        "Number of I/O": "37",
+        "ADC (Bit)": "12bit",
+        "Oscillator Type": "内置",
+        "Voltage - Supply": "2V~3.6V",
+        "Operating Temperature": "-40℃~+85℃",
+        "Description": "CPU内核:ARM Cortex-M3;CPU最大主频:72MHz;CPU位数:32 Bit;",
+        "Unique ID": "",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "",
+        "DeviceName": "STM32F103C8T6",
+        "FootprintName": "LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL",
+        "Device": "42760aedd3c0a8b3",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Name",
+        "Designator"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "+3V3",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "LED",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "3": {
+          "name": "",
+          "number": "3",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "4": {
+          "name": "",
+          "number": "4",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "5": {
+          "name": "",
+          "number": "5",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "6": {
+          "name": "",
+          "number": "6",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "7": {
+          "name": "",
+          "number": "7",
+          "net": "NRST",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "8": {
+          "name": "",
+          "number": "8",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "9": {
+          "name": "",
+          "number": "9",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "10": {
+          "name": "",
+          "number": "10",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "11": {
+          "name": "",
+          "number": "11",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "12": {
+          "name": "",
+          "number": "12",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "13": {
+          "name": "",
+          "number": "13",
+          "net": "+3V3",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "14": {
+          "name": "",
+          "number": "14",
+          "net": "PHOTO_ADC",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "15": {
+          "name": "",
+          "number": "15",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "16": {
+          "name": "",
+          "number": "16",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "17": {
+          "name": "",
+          "number": "17",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "18": {
+          "name": "",
+          "number": "18",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "19": {
+          "name": "",
+          "number": "19",
+          "net": "+3V3",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "20": {
+          "name": "",
+          "number": "20",
+          "net": "DIR",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "21": {
+          "name": "",
+          "number": "21",
+          "net": "PUMP_EN",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "22": {
+          "name": "",
+          "number": "22",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "23": {
+          "name": "",
+          "number": "23",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "24": {
+          "name": "",
+          "number": "24",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "25": {
+          "name": "",
+          "number": "25",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "26": {
+          "name": "",
+          "number": "26",
+          "net": "STIR_PWM",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "27": {
+          "name": "",
+          "number": "27",
+          "net": "STIR_IN2",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "28": {
+          "name": "",
+          "number": "28",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "29": {
+          "name": "",
+          "number": "29",
+          "net": "I2C_SCL",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "30": {
+          "name": "",
+          "number": "30",
+          "net": "I2C_SDA",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "31": {
+          "name": "",
+          "number": "31",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "32": {
+          "name": "",
+          "number": "32",
+          "net": "+3V3",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "33": {
+          "name": "",
+          "number": "33",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "34": {
+          "name": "",
+          "number": "34",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "35": {
+          "name": "",
+          "number": "35",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "36": {
+          "name": "",
+          "number": "36",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "37": {
+          "name": "",
+          "number": "37",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "38": {
+          "name": "",
+          "number": "38",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "39": {
+          "name": "",
+          "number": "39",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "40": {
+          "name": "",
+          "number": "40",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "41": {
+          "name": "",
+          "number": "41",
+          "net": "STEP",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "42": {
+          "name": "",
+          "number": "42",
+          "net": "TXD",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "43": {
+          "name": "",
+          "number": "43",
+          "net": "RXD",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "44": {
+          "name": "",
+          "number": "44",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "45": {
+          "name": "",
+          "number": "45",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "46": {
+          "name": "",
+          "number": "46",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "47": {
+          "name": "",
+          "number": "47",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "48": {
+          "name": "",
+          "number": "48",
+          "net": "+3V3",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "UNIQUEU2": {
+      "props": {
+        "Footprint": "a4e420f79b02a4a3",
+        "Designator": "U2",
+        "LCSC Part Name": "ADS1115QDGSRQ1",
+        "Supplier Part": "C172375",
+        "Manufacturer": "TI(德州仪器)",
+        "Manufacturer Part": "ADS1115QDGSRQ1",
+        "Supplier Footprint": "VSSOP-10-0.5mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "09c11a1bb957406dbbc0521aa8a0fd93|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "VSSOP-10_L3.0-W3.0-H1.1-LS4.9-P0.50",
+        "3D Model Transform": "197.637,118.11,0,90,0,0,0,0,0",
+        "Name": "ADS1115QDGSRQ1",
+        "Description": "",
+        "Unique ID": "",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "",
+        "DeviceName": "ADS1115QDGSRQ1",
+        "FootprintName": "VSSOP-10_L3.0-W3.0-P0.50-LS4.9-BL",
+        "Device": "669b06bdefb03779",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint",
+        "Designator"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "3": {
+          "name": "",
+          "number": "3",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "4": {
+          "name": "",
+          "number": "4",
+          "net": "PHOTO_SIG",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "5": {
+          "name": "",
+          "number": "5",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "6": {
+          "name": "",
+          "number": "6",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "7": {
+          "name": "",
+          "number": "7",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "8": {
+          "name": "",
+          "number": "8",
+          "net": "+3V3",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "9": {
+          "name": "",
+          "number": "9",
+          "net": "I2C_SDA",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "10": {
+          "name": "",
+          "number": "10",
+          "net": "I2C_SCL",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "UNIQUEU3": {
+      "props": {
+        "Footprint": "a5459530940146e8",
+        "Designator": "U3",
+        "LCSC Part Name": "停产",
+        "Supplier Part": "C329455",
+        "Manufacturer": "IDCHIP(英锐芯)",
+        "Manufacturer Part": "LM358",
+        "Supplier Footprint": "SOP-8",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20190220/C329455_57B3E72C7E5AADCB3F5B4A8F23CFDE4F.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "a3315c1c78f949e6bb82c6eaca1c53c7|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SOP-8_L5.0-W4.0-H1.8-LS6.2-P1.27",
+        "3D Model Transform": "244.094,196.85,0,90,0,0,0,0,0",
+        "Number of Circuits": "双路",
+        "Maximum Power Supply Range (Vdd-Vss)": "30V",
+        "Rail to Rail": "-",
+        "Gain Bandwidth Product(GBP)": "1MHz",
+        "Voltage - Input Offset(Vos)": "3mV",
+        "Input Offset Voltage Drift (Vos TC)": "-",
+        "Slew Rate(SR)": "0.3V/us",
+        "Noise density(eN)": "40nV/√Hz@1kHz",
+        "Common Mode Rejection Ratio (CMRR)": "65dB",
+        "Operating Temperature": "-40℃~+85℃",
+        "Name": "LM358",
+        "Description": "放大器数:双路;轨到轨:-;增益带宽积(GBP):1MHz;输入失调电压(Vos):3mV;压摆率(SR):0.3V/us;",
+        "Unique ID": "",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "",
+        "DeviceName": "LM358",
+        "FootprintName": "SOP-8_L5.0-W4.0-P1.27-LS6.0-BL",
+        "Device": "753e5a4a4f153734",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint",
+        "Designator"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "PHOTO_SIG",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "PHOTO_SIG",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "3": {
+          "name": "",
+          "number": "3",
+          "net": "PHOTO_IN",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "4": {
+          "name": "",
+          "number": "4",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "5": {
+          "name": "",
+          "number": "5",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "6": {
+          "name": "",
+          "number": "6",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "7": {
+          "name": "",
+          "number": "7",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "8": {
+          "name": "",
+          "number": "8",
+          "net": "+3V3",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "UNIQUEU4": {
+      "props": {
+        "Footprint": "bfdaead374bd643e",
+        "Designator": "U4",
+        "LCSC Part Name": "A4988",
+        "Supplier Part": "C9900168373",
+        "Manufacturer": "",
+        "Manufacturer Part": "A4988",
+        "Supplier Footprint": "插件",
+        "JLCPCB Part Class": "",
+        "Datasheet": "",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "3abc7b1975624f12b66640bcf27c855b|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "DIP-16_L20.3-W15.2-P2.54_LS12.7_A4988",
+        "3D Model Transform": "599.9988,799.998,0,0,0,0,0,0,-196.85",
+        "Name": "A4988",
+        "Description": "",
+        "Unique ID": "",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "",
+        "DeviceName": "A4988",
+        "FootprintName": "DIP-16_L20.3-W15.2-P2.54_LS12.7_A4988",
+        "Device": "4c8e406a8a694a6a",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint",
+        "Designator"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "+3V3",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "3": {
+          "name": "",
+          "number": "3",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "4": {
+          "name": "",
+          "number": "4",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "5": {
+          "name": "",
+          "number": "5",
+          "net": "NRST",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "6": {
+          "name": "",
+          "number": "6",
+          "net": "+3V3",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "7": {
+          "name": "",
+          "number": "7",
+          "net": "STEP",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "8": {
+          "name": "",
+          "number": "8",
+          "net": "DIR",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "9": {
+          "name": "",
+          "number": "9",
+          "net": "+3V3",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "10": {
+          "name": "",
+          "number": "10",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "11": {
+          "name": "",
+          "number": "11",
+          "net": "MOT_B2",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "12": {
+          "name": "",
+          "number": "12",
+          "net": "MOT_B1",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "13": {
+          "name": "",
+          "number": "13",
+          "net": "MOT_A1",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "14": {
+          "name": "",
+          "number": "14",
+          "net": "MOT_A2",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "15": {
+          "name": "",
+          "number": "15",
+          "net": "VIN",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "16": {
+          "name": "",
+          "number": "16",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "UNIQUEU5": {
+      "props": {
+        "Footprint": "5468ec9f28b5d4ff",
+        "Designator": "U5",
+        "LCSC Part Name": "DRV8833PW",
+        "Supplier Part": "C9900006077",
+        "Manufacturer": "",
+        "Manufacturer Part": "DRV8833PW",
+        "Supplier Footprint": "HTSSOP-16",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "3960aaa9bbe6446298c86f7f6042aa6d|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "HTSSOP-16_L5.0-W4.4-P0.65-LS6.4-TL-EP-1",
+        "3D Model Transform": "251.968,196.85,0,0,0,0,0,0,0",
+        "Name": "DRV8833PW",
+        "Description": "",
+        "Unique ID": "",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "",
+        "DeviceName": "DRV8833PW",
+        "FootprintName": "HTSSOP-16_L5.0-W4.4-P0.65-LS6.4-TL-EP-1",
+        "Device": "055f484c24f2ccc0",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint",
+        "Designator"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "+3V3",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "3": {
+          "name": "",
+          "number": "3",
+          "net": "STIR_M1",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "4": {
+          "name": "",
+          "number": "4",
+          "net": "STIR_M2",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "5": {
+          "name": "",
+          "number": "5",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "6": {
+          "name": "",
+          "number": "6",
+          "net": "STIR_M1",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "7": {
+          "name": "",
+          "number": "7",
+          "net": "STIR_M2",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "8": {
+          "name": "",
+          "number": "8",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "9": {
+          "name": "",
+          "number": "9",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "10": {
+          "name": "",
+          "number": "10",
+          "net": "STIR_IN2",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "11": {
+          "name": "",
+          "number": "11",
+          "net": "STIR_PWM",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "12": {
+          "name": "",
+          "number": "12",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "13": {
+          "name": "",
+          "number": "13",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "14": {
+          "name": "",
+          "number": "14",
+          "net": "VIN",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "15": {
+          "name": "",
+          "number": "15",
+          "net": "STIR_PWM",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "16": {
+          "name": "",
+          "number": "16",
+          "net": "STIR_IN2",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "17": {
+          "name": "",
+          "number": "17",
+          "net": "",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "UNIQUEU6": {
+      "props": {
+        "Footprint": "136a8c2e02df3f3b",
+        "Designator": "U6",
+        "LCSC Part Name": "MAX485EEPA-TUDI",
+        "Supplier Part": "C53086419",
+        "Manufacturer": "Tudi(钍地半导体)",
+        "Manufacturer Part": "MAX485EEPA-TUDI",
+        "Supplier Footprint": "DIP-8",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/MAX485EEPA-TUDI/56053889.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "fe5fd42f66544692923c5fbf1ee41ec7|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "PDIP-8_L10.2-W5.9-H4.5-P2.54-LS7.6-BL",
+        "3D Model Transform": "364.173,311.8104,0,0,0,0,0,0,-118.11",
+        "Type": "收发器",
+        "Number of Drivers": "1",
+        "Number of Receivers": "1",
+        "Voltage - Supply": "5V",
+        "Data Rate": "2.5Mbps",
+        "Number of Nodes": "32",
+        "ESD Protect": "±15kV",
+        "Operating Temperature": "-40℃~+85℃",
+        "Quiescent Supply Current": "200uA",
+        "Communication Mode": "半双工",
+        "Features": "热插拔保护；自动故障恢复；Tx/Rx启用；热关断保护；使能关断；过流保护",
+        "Name": "MAX485EEPA-TUDI",
+        "Description": "类型:收发器;数据速率:2.5Mbps;",
+        "Unique ID": "",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "",
+        "DeviceName": "MAX485EEPA-TUDI",
+        "FootprintName": "PDIP-8_L9.3-W6.4-P2.54-LS7.6-BL",
+        "Device": "bf6b9f25ebd90990",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint",
+        "Designator"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "RXD",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "3": {
+          "name": "",
+          "number": "3",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "4": {
+          "name": "",
+          "number": "4",
+          "net": "TXD",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "5": {
+          "name": "",
+          "number": "5",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "6": {
+          "name": "",
+          "number": "6",
+          "net": "RS485_A",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "7": {
+          "name": "",
+          "number": "7",
+          "net": "RS485_B",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "8": {
+          "name": "",
+          "number": "8",
+          "net": "+3V3",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "UNIQUEU7": {
+      "props": {
+        "Footprint": "e5b4abadfb18f882",
+        "Designator": "U7",
+        "LCSC Part Name": "3.3V 1A 18V",
+        "Supplier Part": "C2891839",
+        "Manufacturer": "YONGYUTAI(永裕泰)",
+        "Manufacturer Part": "AMS1117-3.3",
+        "Supplier Footprint": "SOT-223-3",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/AMS1117-3.3/3119758.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "925194bf9823436183a3e0b978a8d076|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "SOT-223-4P_L6.5-W3.5-H1.6-LS7.0-P2.30",
+        "3D Model Transform": "279.89794,255.905,0,180,0,0,-3.9385,-0.0005,0",
+        "Output Configuration": "正极",
+        "Voltage - Supply": "18V",
+        "Output Voltage": "3.3V",
+        "Output Current": "1A",
+        "Power Supply Rejection Ratio (PSRR)": "60dB@(120Hz)",
+        "Voltage Dropout": "1.3V@(1A)",
+        "standby current": "10mA",
+        "Noise": "0.005%Vout",
+        "Features": "过流保护；热关断",
+        "Operating Temperature": "-40℃~+125℃@(Tj)",
+        "Output Type": "固定",
+        "Number of Outputs": "1",
+        "Name": "AMS1117-3.3",
+        "Description": "输出极性:正极;工作电压:18V;输出电压:3.3V;输出电流:1A;电源纹波抑制比(PSRR):60dB@(120Hz);输出类型:固定;",
+        "Unique ID": "",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "",
+        "DeviceName": "AMS1117-3.3",
+        "FootprintName": "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
+        "Device": "5a1de055326a50ea",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint",
+        "Designator"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "+3V3",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "3": {
+          "name": "",
+          "number": "3",
+          "net": "VIN",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "4": {
+          "name": "",
+          "number": "4",
+          "net": "+3V3",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    },
+    "UNIQUEDC1": {
+      "props": {
+        "Footprint": "cc1191517b320c8f",
+        "Designator": "DC1",
+        "LCSC Part Name": "DC-005-5.5*2.5",
+        "Supplier Part": "C9900017043",
+        "Manufacturer": "",
+        "Manufacturer Part": "DC-005-5.5*2.5",
+        "Supplier Footprint": "DC-005",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "3D Model": "fdaa2265ccb54c2098759f24d8ef963d|0819f05c4eef4c71ace90d822a990e87",
+        "3D Model Title": "DC-IN-TH_DC-005-2",
+        "3D Model Transform": "366.141,555.117,0,270,0,0,-134.645,86.22,-157.48",
+        "Name": "DC-005-5.5*2.5",
+        "Description": "",
+        "Unique ID": "UNIQUEDC1",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "",
+        "DeviceName": "DC-005-5.5*2.5",
+        "FootprintName": "DC-IN-TH_DC-005-2",
+        "Device": "ee33bb56fd14bb9c",
+        "PCB Layer": "TopLayer",
+        "Convert to PCB": "yes"
+      },
+      "footprintAttrKeys": [
+        "Footprint",
+        "Designator"
+      ],
+      "pinInfoMap": {
+        "1": {
+          "name": "",
+          "number": "1",
+          "net": "VIN",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "2": {
+          "name": "",
+          "number": "2",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        },
+        "3": {
+          "name": "",
+          "number": "3",
+          "net": "GND",
+          "pinClass": "",
+          "pinDifferentialPairClass": ""
+        }
+      },
+      "altLibs": {}
+    }
+  },
+  "designRule": {
+    "trackPhysics": {
+      "copperThickness1oz": {
+        "name": "copperThickness1oz",
+        "isDefault": true,
+        "unit": "mm",
+        "strokeValue": {
+          "1": {
+            "default": 0.254,
+            "min": 0.127,
+            "max": 2.54
+          }
+        }
+      },
+      "copperThickness2oz": {
+        "name": "copperThickness2oz",
+        "isDefault": false,
+        "unit": "mm",
+        "strokeValue": {
+          "1": {
+            "default": 0.254,
+            "min": 0.20299934,
+            "max": 2.54
+          }
+        }
+      }
+    },
+    "netRule": {
+      "BOARDEDGE": {
+        "net": "BOARDEDGE",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "VIN": {
+        "net": "VIN",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "+3V3": {
+        "net": "+3V3",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "I2C_SDA": {
+        "net": "I2C_SDA",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "I2C_SCL": {
+        "net": "I2C_SCL",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "STEP": {
+        "net": "STEP",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "GND": {
+        "net": "GND",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "LED": {
+        "net": "LED",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "NRST": {
+        "net": "NRST",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PHOTO_ADC": {
+        "net": "PHOTO_ADC",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "DIR": {
+        "net": "DIR",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PUMP_EN": {
+        "net": "PUMP_EN",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "STIR_PWM": {
+        "net": "STIR_PWM",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "STIR_IN2": {
+        "net": "STIR_IN2",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "TXD": {
+        "net": "TXD",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "RXD": {
+        "net": "RXD",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PHOTO_SIG": {
+        "net": "PHOTO_SIG",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "PHOTO_IN": {
+        "net": "PHOTO_IN",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "MOT_B2": {
+        "net": "MOT_B2",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "MOT_B1": {
+        "net": "MOT_B1",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "MOT_A1": {
+        "net": "MOT_A1",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "MOT_A2": {
+        "net": "MOT_A2",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "STIR_M2": {
+        "net": "STIR_M2",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "STIR_M1": {
+        "net": "STIR_M1",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "RS485_B": {
+        "net": "RS485_B",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      },
+      "RS485_A": {
+        "net": "RS485_A",
+        "ruleMap": {
+          "TrackPhysics": ""
+        }
+      }
+    }
+  },
+  "netClass": {},
+  "equalLengthNetGroup": {},
+  "differentialPair": {},
+  "differentialPairGroups": {}
+}
