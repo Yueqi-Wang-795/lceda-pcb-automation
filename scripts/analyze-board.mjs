@@ -173,6 +173,5 @@ function shapeDist(a, b) {
   say(`网络总数: ${nets.length}`);
   say(`有走线的网络: ${routed.size}`);
 
-  if (process.argv.includes('--print')) console.log(out.join('\n'));
-  else console.log(out.join('\n'));
+  console.log(out.join('\n'));
 })();

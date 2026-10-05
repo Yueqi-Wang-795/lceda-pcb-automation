@@ -1,5 +1,9 @@
 # lceda-pcb-automation
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Node](https://img.shields.io/badge/node-18%2B-green.svg)](https://nodejs.org)
+English | [简体中文](README.md)
+
 A toolchain and example project for **generating PCBs with AI + the JLCPCB/LCEDA EDA MCP**.
 
 This project is not about drawing a board by hand — it verifies an end-to-end automation
@@ -52,7 +56,7 @@ npx tsc
 
 | Script | What it does |
 |--------|--------------|
-| `node scripts/export-fab.mjs [dir]` | Export Gerber / BOM / netlist / STEP 3D |
+| `node scripts/export-fab.mjs [dir] [--no-step]` | Export Gerber / BOM / netlist / STEP 3D (file names auto-prefixed with the project name) |
 | `node scripts/analyze-board.mjs [clearance_mil]` | Connectivity + inter-net clearance (local geometry, ~1s) |
 | `node scripts/poll-drc.mjs [max_polls]` | Async DRC that bypasses the 30s timeout |
 
@@ -71,4 +75,4 @@ in `examples/TitrationCtrl/fabrication/`:
 
 ## License
 
-[MIT](./LICENSE) © lceda-pcb-automation authors
+[MIT](./LICENSE) © 2026 Yueqi-Wang-795

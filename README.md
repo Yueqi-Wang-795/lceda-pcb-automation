@@ -1,5 +1,9 @@
 # lceda-pcb-automation
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Node](https://img.shields.io/badge/node-18%2B-green.svg)](https://nodejs.org)
+[English](README.en.md) | 简体中文
+
 用 **AI + 嘉立创 EDA MCP** 自动生成 PCB 的工具链与示例工程。
 
 本项目不是为了"手动画一块板"，而是验证一条**端到端自动化链路**：从自然语言意图出发，
@@ -58,7 +62,8 @@ npx tsc
 
 ## 快速开始
 
-1. 把 `mcp.json.example` 复制为你的 MCP 配置文件，并把 `args[0]` 改成 jlcmcp 的
+1. 把 `mcp.json.example` 复制为你的 MCP 配置文件（WorkBuddy 在 `~/.workbuddy/mcp.json`，
+   Claude Desktop 在 `claude_desktop_config.json`），并把 `args[0]` 改成 jlcmcp 的
    `dist/index.js` 绝对路径：
 
    ```json
@@ -87,11 +92,13 @@ npx tsc
 ### 导出制造文件
 
 ```bash
-node scripts/export-fab.mjs                 # 导出到 examples/TitrationCtrl/fabrication/
-node scripts/export-fab.mjs ./my-out       # 导出到指定目录
+node scripts/export-fab.mjs                  # 导出到 examples/<工程名>/fabrication/
+node scripts/export-fab.mjs ./my-out        # 导出到指定目录
+node scripts/export-fab.mjs ./my-out --no-step   # 跳过约 20MB 的 STEP 导出
 ```
 
 导出：Gerber 压缩包、BOM（xlsx）、网表（.enet）、STEP 3D 模型。
+输出文件名前缀自动取自当前打开的工程名（如 `TitrationCtrl_Gerber.zip`）。
 
 ### 板面几何体检（连通性 + 异网间距）
 
@@ -139,7 +146,7 @@ node scripts/poll-drc.mjs 60               # 加长轮询
 
 > 该示例由 AI 自主设计、自动放置/布线/铺铜并导出，**用于验证链路可行性**，不保证电气正确性。
 
-布局俯视图见根目录未随附（可在 EDA 内查看）；本仓库 `examples/TitrationCtrl/layout.svg` 为示意。
+板子布局示意见 [examples/TitrationCtrl/layout.svg](examples/TitrationCtrl/layout.svg)。
 
 ---
 
@@ -168,7 +175,7 @@ lceda-pcb-automation/
         ├── TitrationCtrl_Netlist.txt
         └── fabrication/
             ├── TitrationCtrl_Gerber.zip
-            └── TitrationCtrl_3D.step
+            └── TitrationCtrl_3D.step    # 未纳入 git，export-fab 重新生成
 ```
 
 ---
@@ -179,7 +186,7 @@ lceda-pcb-automation/
 
 ## 许可证
 
-[MIT](./LICENSE) © lceda-pcb-automation authors
+[MIT](./LICENSE) © 2026 Yueqi-Wang-795
 
 ---
 
