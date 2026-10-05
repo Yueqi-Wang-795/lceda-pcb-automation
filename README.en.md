@@ -66,6 +66,8 @@ npx tsc
 proof of the end-to-end link. Board 75.1 × 49.8 mm, 2 layers, top/bottom GND pour. Artifacts
 in `examples/TitrationCtrl/fabrication/`:
 
+<p align="center"><img src="examples/TitrationCtrl/layout.svg" width="640" alt="TitrationCtrl PCB layout"></p>
+
 - `TitrationCtrl_Gerber.zip` — 14 Gerber layers, CRC verified
 - `TitrationCtrl_BOM.xlsx` — bill of materials
 - `TitrationCtrl_Netlist.txt` — netlist

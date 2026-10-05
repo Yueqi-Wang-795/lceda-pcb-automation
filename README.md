@@ -125,6 +125,8 @@ node scripts/poll-drc.mjs 60               # 加长轮询
 
 `examples/TitrationCtrl/` 是一块**基于分光光度计的自动滴定仪控制板**，作为端到端验证的物证：
 
+<p align="center"><img src="examples/TitrationCtrl/layout.svg" width="640" alt="TitrationCtrl PCB 布局示意"></p>
+
 | 位号 | 器件 | 功能 |
 |------|------|------|
 | U1 | STM32F103C8T6 | 主控 MCU |
